@@ -1,0 +1,37 @@
+.pager li .active_link {
+
+background: #000 !important;
+
+}
+
+
+.form-control.pwd {
+
+background: black !important;
+width: 30%;
+
+}
+
+.custom{
+    width: 30rem;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid lightgray 2px;
+    border-radius: 2em;
+    margin: 2px;
+}
+
+.space{
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.img-cust{
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.text-space{
+    margin-left: 2%;
+}
