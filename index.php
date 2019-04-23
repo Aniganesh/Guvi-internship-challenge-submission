@@ -52,7 +52,7 @@ function signup()
                 $getIdQuery = "SELECT uid FROM `users` WHERE uname = '$cleanUsername'";
                 $userid =  mysqli_query($connection, $getIdQuery);
                 $id=$userid['uid'];
-                header("Location: profile.php/?uid=$id");
+                header("Location: profile.php/");
                 return($userid);
             }
         } else {
